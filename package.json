@@ -1,0 +1,27 @@
+{
+  "name": "google-oauth2-parse-react",
+  "version": "1.0.0",
+  "description": "How to setup Google OAuth2 login with Parse Server in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethinkertwin/google-oauth2-parse-react.git"
+  },
+  "keywords": [
+    "google",
+    "oauth2",
+    "parse",
+    "baas",
+    "react",
+    "authentication"
+  ],
+  "author": "Gustavo E. Rangel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thethinkertwin/google-oauth2-parse-react/issues"
+  },
+  "homepage": "https://github.com/thethinkertwin/google-oauth2-parse-react#readme"
+}

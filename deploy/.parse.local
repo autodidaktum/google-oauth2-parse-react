@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "user-auth"
+    },
+    "user-auth": {
+      "applicationId": "vR7uX9mo3SgCzv2T9OoNVAV7rPcvwZw0aeeyolMm"
+    }
+  }
+}
