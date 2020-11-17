@@ -1,9 +1,8 @@
-import { REDIRECT_SUCCESS, LOGIN_SUCCESS, AUTH_ERROR } from "../actions/types";
+import { REDIRECT_SUCCESS, LOGIN_SUCCESS, AUTH_ERROR } from '../actions/types';
 
 const initialState = {
   isAuthenticated: null,
   oauth: null,
-  userInfo: null,
   errors: [],
 };
 
@@ -20,7 +19,6 @@ export default function (state = initialState, action) {
       return {
         ...state,
         isAuthenticated: true,
-        userInfo: payload,
       };
     case AUTH_ERROR:
       return {
